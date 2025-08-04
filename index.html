@@ -19,11 +19,11 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: center;
-            height: 100vh;
+            justify-content: flex-start;
+            min-height: 100vh;
             background-color: rgba(255, 255, 255, 0.6);
-            padding: 20px;
-            border-radius: 10px;
+            padding: 40px 20px 20px 20px;
+            border-radius: 0 0 10px 10px;
         }
         img.logo {
             max-width: 300px;
@@ -45,6 +45,13 @@
             font-size: 1.2em;
             color: #000;
         }
+        .email a {
+            color: #000;
+            text-decoration: none;
+        }
+        .email a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
@@ -64,7 +71,7 @@
                 <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg" alt="Spotify">
             </a>
         </div>
-        <div class="email">contacto@clasebasica.com</div>
+        <div class="email"><a href="mailto:contacto@clasebasica.com">contacto@clasebasica.com</a></div>
     </div>
 </body>
 </html>
